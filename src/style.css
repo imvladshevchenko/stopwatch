@@ -16,6 +16,10 @@ h1 {
   font-size: 100px;
 }
 
+.buttons-wrapper {
+  display: flex;
+}
+
 .button {
   text-decoration: none;
   display: inline-block;
@@ -40,4 +44,14 @@ h1 {
   box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
   color: white;
   transform: translateY(-7px);
+}
+
+#pause {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  justify-content: center;
+}
+.double-click {
+  font-size: 8px;
 }
